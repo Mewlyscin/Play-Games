@@ -8,9 +8,6 @@ module.exports = {
         green: "#7AFE02",
         beige: "#F3F0EB",
       },
-      // backgroundImage: {
-      // "bg-header": url("./assets/backgroung_Navbar/logo-Play-games(1).png"),
-      // },
     },
   },
   plugins: [],

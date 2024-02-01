@@ -10,26 +10,28 @@ function Footer() {
       <div className="bg-black grid grid-cols-2 gap-7">
         <div className="text-beige text-xl font-medium ml-2 grid grid-rows-3 p-2">
           <NavLink
-            className="hover:text-green text-l h-fit my-auto"
+            className="hover:text-purple text-l h-fit my-auto"
             to="/Conditions"
           >
             Conditions générales
           </NavLink>
           <NavLink
-            className="hover:text-green text-l h-fit my-auto"
+            className="hover:text-purple text-l h-fit my-auto"
             to="/mention"
           >
             Mention légales
           </NavLink>
-          <NavLink className="hover:text-green text-l h-fit my-auto" to="/">
+          <NavLink className="hover:text-purple text-l h-fit my-auto" to="/">
             Données personnelles et sécurité
           </NavLink>
         </div>
         <div className="text-beige grid grid-rows-4 m-4 text-xl font-medium">
-          <p className="text-l h-fit my-auto p-1">Playmogames</p>
-          <p className="text-l h-fit my-auto">Adresse</p>
+          <p className="text-l h-fit my-auto p-1">Play-games</p>
+          <p className="text-l h-fit my-auto">
+            777 Rue du Cerisier 77707 Orleans
+          </p>
           <NavLink
-            className="hover:text-green text-l h-fit my-auto"
+            className="hover:text-purple text-l h-fit my-auto"
             to="/contact"
           >
             Contact

@@ -61,8 +61,12 @@ CREATE TABLE favorite_user (
 INSERT INTO product (product_name, image, description, marque, price, stock, category_id) VALUES ("PS5", "https://image.shutterstock.com/image-photo/next-gen-console-controller-isolated-260nw-1977908147.jpg", "lorem ipsum", "Sony", 500, 7, 1 ),
 ("PS4", "https://th.bing.com/th/id/OIP.NTgi1sTNWxJ9GGO8ul3agwHaE7?w=274&h=183&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Sony", 400.99, 5, 1 ),
 ("PS3", "https://th.bing.com/th/id/OIP.JWYnQhSZLyIZmygupOqE1wHaIH?rs=1&pid=ImgDetMain", "lorem ipsum", "Sony", 299.50, 4, 1 ),
-("switch", "https://th.bing.com/th/id/OIP.XCCok6ApjGjDhiGkxt7wsQHaEF?w=299&h=180&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Nintendo", 350.99, 10, 2 ),
-("switch lite", "https://1.bp.blogspot.com/-g28zGbJBrtg/YHW0ZRxetQI/AAAAAAAA2_Y/JP-fMDdmiEwhcwfhWIPUSDjxlwGeQIICQCLcBGAsYHQ/s967/nintendo-switch-lite-azul.jpg", "lorem ipsum", "Nintendo", 250.99, 20, 2 );
+("Switch", "https://th.bing.com/th/id/OIP.XCCok6ApjGjDhiGkxt7wsQHaEF?w=299&h=180&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Nintendo", 350.99, 10, 2 ),
+("Switch lite", "https://1.bp.blogspot.com/-g28zGbJBrtg/YHW0ZRxetQI/AAAAAAAA2_Y/JP-fMDdmiEwhcwfhWIPUSDjxlwGeQIICQCLcBGAsYHQ/s967/nintendo-switch-lite-azul.jpg", "lorem ipsum", "Nintendo", 250.99, 20, 2 ),
+("Manette PS5", "https://th.bing.com/th/id/OIP.vCyKTNDimwXeBoPzbxBxhAHaFj?w=238&h=180&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Sony", 69.98, 50, 3 ),
+("Manette PS4", "https://th.bing.com/th/id/OIP.6bHKa8U8aUy5_VZfxKJBsgAAAA?w=228&h=180&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Sony", 58.95, 30, 3 ),
+("Manette PS3", "https://th.bing.com/th/id/OIP.X2GSTzGZezzKQt9-bOPkbgAAAA?w=236&h=156&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Sony", 45.99, 10, 3 ),
+("Manette Switch", "https://th.bing.com/th/id/OIP.kTnggsgezIVUgGdEbhSMKQHaFj?w=243&h=182&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Nintendo", 69.99, 20, 3 );
 
 INSERT INTO user (pseudo, firstname, lastname, avatar, age, genre, adresse, email, password) VALUES ("lulu", "Lucinda", "Kazuyuki", "https://th.bing.com/th/id/OIF.LNtsyTvYpaRpFlIono6FFQ?rs=1&pid=ImgDetMain", 27, "f", "14 rue du moulin 45000 Orleans","lucinda@wcs.fr", "null" ),
 ("Toto", "Tomas", "Espinoza", "https://th.bing.com/th/id/OIF.LNtsyTvYpaRpFlIono6FFQ?rs=1&pid=ImgDetMain", 32, "h", "16 rue du jacquemain 45000 Orleans", "toto@wcs.fr", "null" ),

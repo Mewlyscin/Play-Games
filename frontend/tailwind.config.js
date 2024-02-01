@@ -7,6 +7,8 @@ module.exports = {
         black: "#000000",
         green: "#7AFE02",
         beige: "#F3F0EB",
+        purple: "#8D23EA",
+        pecheClair: "#FCE7C5",
       },
       backgroundImage: {
         imgnav: "url('src/assets/background_Navbar/nav.jpg')",

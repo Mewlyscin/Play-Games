@@ -7,7 +7,7 @@ import logo from "../assets/logo/logo_Playgames.png";
 
 export default function Navbar() {
   return (
-    <div className="text-3xl font-semibold flex flex-row justify-center align-center">
+    <div className="bg-imgnav text-3xl font-semibold flex flex-row justify-center align-center">
       <img className="w-96 h-96" src={logo} alt={logo} />
       <div className="flex flex-col p-7 justify-end">
         <NavLink className="hover:text-green" to="/">

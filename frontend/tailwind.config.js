@@ -8,6 +8,9 @@ module.exports = {
         green: "#7AFE02",
         beige: "#F3F0EB",
       },
+      backgroundImage: {
+        imgnav: "url('src/assets/background_Navbar/nav.jpg')",
+      },
     },
   },
   plugins: [],

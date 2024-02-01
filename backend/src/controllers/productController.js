@@ -5,8 +5,11 @@ const tables = require("../tables");
 const browse = async (req, res, next) => {
   try {
     const product = await tables.product.readAll();
-    res.json(product);
-    console.info(res.json(product));
+    if (product === null) {
+      res.sendStatus(404);
+    } else {
+      res.status(200).json(product);
+    }
   } catch (error) {
     next(error);
   }

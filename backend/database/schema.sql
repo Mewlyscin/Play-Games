@@ -1,3 +1,7 @@
+DROP DATABASE playmogames;
+CREATE DATABASE playmogames;
+
+USE playmogames;
 -- Active: 1701269233151@@127.0.0.1@3306@playmogames
 
 -- table product
@@ -54,4 +58,14 @@ CREATE TABLE favorite_user (
     user_id INT NOT NULL
 );
 
-INSERT INTO product (product_name, image, description, marque, price, stock, category_id) VALUES ("PS5", "https://image.shutterstock.com/image-photo/next-gen-console-controller-isolated-260nw-1977908147.jpg", "lorem ipsum", "Sony", 500, 7, 1 );
+INSERT INTO product (product_name, image, description, marque, price, stock, category_id) VALUES ("PS5", "https://image.shutterstock.com/image-photo/next-gen-console-controller-isolated-260nw-1977908147.jpg", "lorem ipsum", "Sony", 500, 7, 1 ),
+("PS4", "https://th.bing.com/th/id/OIP.NTgi1sTNWxJ9GGO8ul3agwHaE7?w=274&h=183&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Sony", 400.99, 5, 1 ),
+("PS3", "https://th.bing.com/th/id/OIP.JWYnQhSZLyIZmygupOqE1wHaIH?rs=1&pid=ImgDetMain", "lorem ipsum", "Sony", 299.50, 4, 1 ),
+("switch", "https://th.bing.com/th/id/OIP.XCCok6ApjGjDhiGkxt7wsQHaEF?w=299&h=180&c=7&r=0&o=5&pid=1.7", "lorem ipsum", "Nintendo", 350.99, 10, 2 ),
+("switch lite", "https://1.bp.blogspot.com/-g28zGbJBrtg/YHW0ZRxetQI/AAAAAAAA2_Y/JP-fMDdmiEwhcwfhWIPUSDjxlwGeQIICQCLcBGAsYHQ/s967/nintendo-switch-lite-azul.jpg", "lorem ipsum", "Nintendo", 250.99, 20, 2 );
+
+INSERT INTO user (pseudo, firstname, lastname, avatar, age, genre, adresse, email, password) VALUES ("lulu", "Lucinda", "Kazuyuki", "https://th.bing.com/th/id/OIF.LNtsyTvYpaRpFlIono6FFQ?rs=1&pid=ImgDetMain", 27, "f", "14 rue du moulin 45000 Orleans","lucinda@wcs.fr", "null" ),
+("Toto", "Tomas", "Espinoza", "https://th.bing.com/th/id/OIF.LNtsyTvYpaRpFlIono6FFQ?rs=1&pid=ImgDetMain", 32, "h", "16 rue du jacquemain 45000 Orleans", "toto@wcs.fr", "null" ),
+("Ayoubi", "Ayoub", "Toto", "https://th.bing.com/th/id/OIF.LNtsyTvYpaRpFlIono6FFQ?rs=1&pid=ImgDetMain", 31, "h", "37 rue du chapeau rouge 45000 Orleans", "ayoub@wcs.fr", "null" ),
+("Sera", "Serena", "Will", "https://th.bing.com/th/id/OIF.LNtsyTvYpaRpFlIono6FFQ?rs=1&pid=ImgDetMain", 20, "f", "27 allee du vent terreux 45000 Orleans", "serena@wcs.fr", "null" ),
+("libell", "Lisbeth", "Winchest", "https://th.bing.com/th/id/OIF.LNtsyTvYpaRpFlIono6FFQ?rs=1&pid=ImgDetMain", 40, "f", "107 rue pierre lamarer 45000 Orleans", "lisbeth@wcs.fr", "null" );

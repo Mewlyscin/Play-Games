@@ -53,3 +53,5 @@ CREATE TABLE favorite_user (
     product_id INT NOT NULL,
     user_id INT NOT NULL
 );
+
+INSERT INTO product (product_name, image, description, marque, price, stock, category_id) VALUES ("PS5", "https://image.shutterstock.com/image-photo/next-gen-console-controller-isolated-260nw-1977908147.jpg", "lorem ipsum", "Sony", 500, 7, 1 );

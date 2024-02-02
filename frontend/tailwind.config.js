@@ -9,6 +9,7 @@ module.exports = {
         beige: "#F3F0EB",
         purple: "#8D23EA",
         pecheClair: "#FCE7C5",
+        peche: "#FDC35D",
       },
       backgroundImage: {
         imgnav: "url('src/assets/background_Navbar/nav.jpg')",

@@ -23,6 +23,7 @@ const seed = async () => {
     await database.query("truncate item");
 
     // Insert fake data into the 'item' table
+
     for (let i = 0; i < 10; i += 1) {
       queries.push(
         database.query("insert into item(title) values (?)", [

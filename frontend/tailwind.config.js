@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         imgnav: "url('src/assets/background_Navbar/nav.jpg')",
+        imglogin: "url('src/assets/login/login1.png')",
       },
     },
   },

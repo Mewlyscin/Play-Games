@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         black: "#000000",
         green: "#7AFE02",
+        beige: "#F3F0EB",
       },
       backgroundImage: {
         imgnav: "url('src/assets/background_Navbar/nav.jpg')",

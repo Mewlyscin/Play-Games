@@ -19,7 +19,7 @@ export default function Navbar() {
         <NavLink className="hover:text-purple" to="/">
           A propos
         </NavLink>
-        <NavLink className="hover:text-purple" to="/">
+        <NavLink className="hover:text-purple" to="/login">
           <img className="h-12 w-12" src={loginicon} alt={loginicon} />
         </NavLink>
         <NavLink className="hover:text-purple" to="/">

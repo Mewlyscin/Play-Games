@@ -31,7 +31,15 @@ CREATE TABLE user (
     genre VARCHAR(20),
     adresse VARCHAR(255),
     password VARCHAR(255) NOT NULL,
-    pseudo VARCHAR(50) UNIQUE
+    pseudo VARCHAR(50) UNIQUE,
+    role_id int NOT NULL DEFAULT 1
+);
+
+-- table role
+
+CREATE TABLE role (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    type varchar(150)  NOT NULL
 );
 
 -- table basket

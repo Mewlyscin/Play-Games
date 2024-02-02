@@ -6,7 +6,7 @@ import { FaUserAlt, FaLock } from "react-icons/fa";
 
 function LoginForm() {
   return (
-    <div className="wrapper bg-imglogin bg-cover text-beige text-base font-medium w-96 ml-96 rounded-xl mt-7 p-2 text-center bg-purple">
+    <div className="wrapper bg-imglogin bg-cover text-peche text-base font-medium w-96 ml-96 rounded-xl mt-7 p-2 text-center bg-purple">
       <form action="">
         <br />
         <h1 className="text-2xl font-medium">Connexion</h1>
@@ -43,7 +43,7 @@ function LoginForm() {
         </div>
         <br />
         <button
-          className="text-xl font-medium border-2 border-beige p-2 rounded-md cursor-pointer"
+          className="text-xl font-medium border-2 border-beige p-2 rounded-md cursor-pointer hover:bg-peche hover:text-black"
           type="submit"
         >
           Connexion

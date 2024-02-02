@@ -15,7 +15,10 @@ function Footer() {
           >
             Conditions générales
           </NavLink>
-          <NavLink className="hover:text-green text-l h-fit my-auto" to="/">
+          <NavLink
+            className="hover:text-green text-l h-fit my-auto"
+            to="/mention"
+          >
             Mention légales
           </NavLink>
           <NavLink className="hover:text-green text-l h-fit my-auto" to="/">
